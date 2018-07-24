@@ -1372,7 +1372,7 @@ body, html {
 body {
   font-family: 'Merriweather',times,serif;
   color: #222;
-  font-size: 24px;
+  font-size: 12px;
   font-weight: 800;
 }
 
@@ -1448,7 +1448,7 @@ a:hover {
 }
 /* line 171, ../sass/style.scss */
 .container .slide-content {
-  padding: 1.5em;
+  padding: .5em;
   max-width: 1000px;
   font-size: 2em;
   line-height: 1.5;
@@ -1512,55 +1512,60 @@ a:hover {
 }
 /* line 250, ../sass/style.scss */
 #fbsection1 .slide-content {
-  font-size: 24px;
+  font-size: 12px;
+  padding: 1.5em;
 }
-/* line 253, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 #fbsection1 .slide-content h1 {
   font-size: 2.5em;
   margin-top: 0;
 }
-/* line 258, ../sass/style.scss */
+/* line 259, ../sass/style.scss */
 #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
   width: 100%;
 }
+/* line 262, ../sass/style.scss */
+#fbsection1 .slide-content p {
+  font-weight: 400;
+}
 
-/* line 264, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 #fbsection2 {
   background-image: url(../images/armory-ww1.jpg);
 }
-/* line 267, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 #fbsection2 .slide-content {
-  font-size: 24px;
+  font-size: 12px;
   font-size: 2em;
   color: black;
 }
 
-/* line 274, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 #fbsection3 {
   background-image: url(../images/aerial2.jpg);
 }
 
-/* line 278, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 #fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 284, ../sass/style.scss */
+/* line 288, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 288, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 292, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 296, ../sass/style.scss */
+/* line 300, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
@@ -1583,29 +1588,40 @@ a:hover {
 @media screen and (max-height: 800px) {
   /* line 18, ../sass/_queries.scss */
   .container img.elevation {
-    bottom: -1em;
+    bottom: 0em;
     right: 2em;
     width: 100%;
     max-width: 700px;
   }
 }
+@media screen and (min-width: 48em) {
+  /* line 34, ../sass/_queries.scss */
+  body {
+    font-size: 20px;
+  }
+
+  /* line 39, ../sass/_queries.scss */
+  #fbsection1 .slide-content {
+    font-size: 20px;
+  }
+}
 @media screen and (min-width: 81.25em) {
-  /* line 37, ../sass/_queries.scss */
+  /* line 51, ../sass/_queries.scss */
   body {
     font-size: 24px;
   }
 
-  /* line 42, ../sass/_queries.scss */
+  /* line 56, ../sass/_queries.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 46, ../sass/_queries.scss */
+  /* line 60, ../sass/_queries.scss */
   .not-mobile {
     display: block;
   }
 
-  /* line 51, ../sass/_queries.scss */
+  /* line 65, ../sass/_queries.scss */
   .container .slide-content {
     width: 75%;
     margin-left: 10%;
@@ -1613,33 +1629,33 @@ a:hover {
     top: 2em;
   }
 
-  /* line 60, ../sass/_queries.scss */
+  /* line 74, ../sass/_queries.scss */
   .cbp-fbscroller section {
     height: 100%;
   }
 
-  /* line 66, ../sass/_queries.scss */
+  /* line 80, ../sass/_queries.scss */
   #fbsection1 .slide-content {
     font-size: .8em;
     width: 60%;
   }
-  /* line 70, ../sass/_queries.scss */
+  /* line 84, ../sass/_queries.scss */
   #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
     width: 75%;
   }
 
-  /* line 76, ../sass/_queries.scss */
+  /* line 90, ../sass/_queries.scss */
   .highlight-mobile-only {
     background-color: transparent;
   }
 }
 @media screen and (min-width: 81.25em) and (max-width: 90em) {
-  /* line 84, ../sass/_queries.scss */
+  /* line 98, ../sass/_queries.scss */
   #fbsection1 .slide-content {
     font-size: .8em;
     width: 60%;
   }
-  /* line 88, ../sass/_queries.scss */
+  /* line 102, ../sass/_queries.scss */
   #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
     width: 75%;
   }

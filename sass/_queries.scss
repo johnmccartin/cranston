@@ -16,7 +16,7 @@
 		img {
 
 			&.elevation {
-				bottom: -1em;
+				bottom: 0em;
 				right: 2em;
 				width: 100%;
 				max-width: 700px;
@@ -27,7 +27,21 @@
 
 }
 
+@media screen and (min-width: $tablet-break) {
 
+	$tablet-base-size: 20px;
+
+	body {
+		font-size: $tablet-base-size;
+	}
+
+	#fbsection1 {
+		.slide-content {
+			font-size: $tablet-base-size;
+		}
+	}
+
+}
 
 // Desktop + Laptop
 @media screen and (min-width: $desktop-break) {
