@@ -1620,7 +1620,7 @@ a:hover {
 
   /* line 66, ../sass/_queries.scss */
   #fbsection1 .slide-content {
-    font-size: 24px;
+    font-size: .8em;
     width: 60%;
   }
   /* line 70, ../sass/_queries.scss */
