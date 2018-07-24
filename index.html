@@ -14,42 +14,63 @@
 	</head>
 	<body>
 		<div class="container">
+			<!--
 			<header class="clearfix">
-				<h1>Cranston Street Armory <br />Planning Study</h1>
+				
 			</header>	
+			-->
 			<div id="cbp-fbscroller" class="cbp-fbscroller">
-				<nav>
+				<nav class="not-mobile">
 					<a href="#fbsection1" class="cbp-fbcurrent">Section 1</a>
 					<a href="#fbsection2">Section 2</a>
 					<a href="#fbsection3">Section 3</a>
 					<a href="#fbsection4">Section 4</a>
-					<a href="#fbsection5">Section 5</a>
 				</nav>
 
 
-				<section id="fbsection1"></section>
-				<section id="fbsection2"></section>
-				<section id="fbsection3"></section>
-				<section id="fbsection4"></section>
-				<section id="fbsection5"></section>
+				<section id="fbsection1" class="clearfix">
+					<div class="slide-content" data-aos="fade-zoom-in-up">
+					<img class="elevation-logo mobile-only" src="images/elevation.png" data-aos="fade-zoom-in-up" />
+					<h1>Cranston Street Armory <br />Planning Study</h1>
+					<p>The Cranston Street Armory Planning Study is a TK-year-long process by the State of Rhode Island to reimagine TKTKTK.</p>
+					<h2>Join us on September TK, 2018 to learn more about the armory's restoration and plan.</h2>
+					</div>
 
+					<img class="elevation not-mobile" src="images/elevation.png" data-aos="fade-zoom-in-up" data-aos-delay="400" />
+				</section>
+
+				<section id="fbsection2">
+					<div class="slide-content" data-aos="fade-zoom-in-up">
+							<p><span class="highlight-iron">The armory has been a landmark in Providence for a long time. How can we make this a 21st Century asset?</span></p>
+
+					</div>
+				</section>
 				
+
+				<section id="fbsection3">
+					<div class="slide-content" data-aos="fade-zoom-in-up">
+						<p><span class="highlight-sandstone">Read our interim report on the state of the armory <a href="">here [PDF]</a>.</span</p>
+					</div>
+				</section>
+				
+
+				<section id="fbsection4">
+
+					<div class="slide-content" data-aos="fade-zoom-in-up">
+						<p><span class="highlight-gray">Stay tuned for our Request for Ideas for the armory!</span></p>
+					</div>
+
+				</section>
+				
+
 			</div>
 		</div>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 
-		<!-- jquery.easing by http://gsgd.co.uk/ : http://gsgd.co.uk/sandbox/jquery/easing/ -->
-		<script src="js/jquery.easing.min.js"></script>
-		<!-- waypoints jQuery plugin by http://imakewebthings.com/ : http://imakewebthings.com/jquery-waypoints/ -->
-		<script src="js/waypoints.min.js"></script>
-		<!-- jquery-smartresize by @louis_remi : https://github.com/louisremi/jquery-smartresize -->
-		<script src="js/jquery.debouncedresize.js"></script>
-		<script src="js/cbpFixedScrollLayout.min.js"></script>
-		<script>
-			$(function() {
-				cbpFixedScrollLayout.init();
-			});
-		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+		<script src="js/plugins.js"></script>
+		<script src="js/main.js"></script>
 	</body>
 </html>

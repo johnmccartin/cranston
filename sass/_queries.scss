@@ -1,0 +1,57 @@
+.mobile-only {
+	display: auto;
+}
+
+.not-mobile {
+	display: none;
+}
+
+.mobile-menu {
+	display: none;
+}
+
+
+// Desktop + Laptop
+@media screen and (min-width: $responsive-break) {
+
+	$laptop-base-size: 24px;
+
+	body {
+		font-size: $laptop-base-size;
+	}
+
+
+	.mobile-only {
+		display: none;
+	}
+
+	.not-mobile {
+		display: block;
+	}
+
+	.container {
+		.slide-content {
+   	 		width: 75%;
+    		margin-left: 10%;
+    		position: relative;
+    		top: 2em;
+		}
+	}
+
+	.cbp-fbscroller {
+		section {
+			height: 100%;
+		}
+	}
+
+	#fbsection1 {
+		.slide-content {
+			font-size: $laptop-base-size;
+		}
+	}
+
+	.highlight-mobile-only {
+		background-color: transparent;
+	}
+
+}
