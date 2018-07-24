@@ -10,6 +10,22 @@
 	display: none;
 }
 
+@media screen and (max-height: 800px) {
+
+	.container {
+		img {
+
+			&.elevation {
+				bottom: -1em;
+				right: 2em;
+				width: 100%;
+				max-width: 700px;
+			}
+
+		}
+	}
+
+}
 
 // Desktop + Laptop
 @media screen and (min-width: $responsive-break) {
@@ -47,6 +63,11 @@
 	#fbsection1 {
 		.slide-content {
 			font-size: $laptop-base-size;
+			width: 60%;
+
+			p,h2 {
+				width: 75%;
+			}
 		}
 	}
 

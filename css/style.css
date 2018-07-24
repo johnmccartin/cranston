@@ -1372,7 +1372,7 @@ body, html {
 body {
   font-family: 'Merriweather',times,serif;
   color: #222;
-  font-size: 16px;
+  font-size: 24px;
   font-weight: 800;
 }
 
@@ -1448,7 +1448,7 @@ a:hover {
 }
 /* line 170, ../sass/style.scss */
 .container .slide-content {
-  padding: 1em;
+  padding: 1.5em;
   max-width: 1000px;
   font-size: 2em;
   line-height: 1.5;
@@ -1460,23 +1460,23 @@ a:hover {
 .container .slide-content img.elevation-logo {
   width: 100%;
 }
-/* line 191, ../sass/style.scss */
+/* line 192, ../sass/style.scss */
 .container img.elevation {
   position: absolute;
-  bottom: 2em;
+  bottom: 0em;
   width: 50%;
-  right: 4em;
+  right: 2em;
   max-width: 800px;
 }
 
-/* line 209, ../sass/style.scss */
+/* line 207, ../sass/style.scss */
 .cbp-fbscroller section {
   height: auto;
   min-height: 450px;
   padding-bottom: 2em;
 }
 
-/* line 217, ../sass/style.scss */
+/* line 215, ../sass/style.scss */
 .gallery {
   width: 40%;
   max-width: 600px;
@@ -1484,79 +1484,83 @@ a:hover {
   right: 8em;
   top: 2em;
 }
-/* line 224, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .gallery ul {
   width: 100%;
   list-style: none;
   height: 80%;
 }
-/* line 229, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 .gallery ul li {
   width: 100%;
   position: absolute;
   top: 0;
   display: none;
 }
-/* line 235, ../sass/style.scss */
+/* line 233, ../sass/style.scss */
 .gallery ul li.current {
   display: block;
 }
-/* line 239, ../sass/style.scss */
+/* line 237, ../sass/style.scss */
 .gallery ul li img {
   width: 100%;
 }
 
-/* line 248, ../sass/style.scss */
+/* line 246, ../sass/style.scss */
 #fbsection1 {
   background-color: #323232;
 }
-/* line 251, ../sass/style.scss */
+/* line 249, ../sass/style.scss */
 #fbsection1 .slide-content {
-  font-size: 16px;
+  font-size: 24px;
 }
-/* line 254, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 #fbsection1 .slide-content h1 {
   font-size: 2.5em;
   margin-top: 0;
 }
+/* line 257, ../sass/style.scss */
+#fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
+  width: 100%;
+}
 
-/* line 261, ../sass/style.scss */
+/* line 263, ../sass/style.scss */
 #fbsection2 {
   background-image: url(../images/armory-ww1.jpg);
 }
-/* line 264, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 #fbsection2 .slide-content {
-  font-size: 16px;
+  font-size: 24px;
   font-size: 2em;
   color: black;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 273, ../sass/style.scss */
 #fbsection3 {
   background-image: url(../images/aerial2.jpg);
 }
 
-/* line 275, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 #fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 281, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 285, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 289, ../sass/style.scss */
+/* line 291, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 293, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
@@ -1576,23 +1580,32 @@ a:hover {
   display: none;
 }
 
-@media screen and (min-width: 64em) {
-  /* line 19, ../sass/_queries.scss */
+@media screen and (max-height: 800px) {
+  /* line 18, ../sass/_queries.scss */
+  .container img.elevation {
+    bottom: -1em;
+    right: 2em;
+    width: 100%;
+    max-width: 700px;
+  }
+}
+@media screen and (min-width: 80em) {
+  /* line 35, ../sass/_queries.scss */
   body {
     font-size: 24px;
   }
 
-  /* line 24, ../sass/_queries.scss */
+  /* line 40, ../sass/_queries.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 28, ../sass/_queries.scss */
+  /* line 44, ../sass/_queries.scss */
   .not-mobile {
     display: block;
   }
 
-  /* line 33, ../sass/_queries.scss */
+  /* line 49, ../sass/_queries.scss */
   .container .slide-content {
     width: 75%;
     margin-left: 10%;
@@ -1600,17 +1613,22 @@ a:hover {
     top: 2em;
   }
 
-  /* line 42, ../sass/_queries.scss */
+  /* line 58, ../sass/_queries.scss */
   .cbp-fbscroller section {
     height: 100%;
   }
 
-  /* line 48, ../sass/_queries.scss */
+  /* line 64, ../sass/_queries.scss */
   #fbsection1 .slide-content {
     font-size: 24px;
+    width: 60%;
+  }
+  /* line 68, ../sass/_queries.scss */
+  #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
+    width: 75%;
   }
 
-  /* line 53, ../sass/_queries.scss */
+  /* line 74, ../sass/_queries.scss */
   .highlight-mobile-only {
     background-color: transparent;
   }

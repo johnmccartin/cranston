@@ -43,10 +43,10 @@ __   ____ _ _ __(_) __ _| |__ | | ___  ___
 //fonts
 $body-stack: "Merriweather",Times, serif;
 $header-stack: arial, sans-serif;
-$base-size: 16px;
+$base-size: 24px;
 $reader-size: 1.25em;
 
-$responsive-break: 64em;
+$responsive-break: 80em;
 
 //colors
 $sandstone: rgba(215,160,79,1);
@@ -169,7 +169,7 @@ a:hover {
 
   .slide-content {
 
-    padding: 1em;
+    padding: 1.5em;
     max-width: 1000px;
     font-size: 2em;
     line-height: 1.5;
@@ -187,20 +187,18 @@ a:hover {
     
   }
         
-    img {
-      &.elevation {
-        position: absolute;
-        bottom: 2em;
-        width: 50%;
-        right: 4em;
-        max-width: 800px;
-      }
+  img {
+
+    &.elevation {
+      position: absolute;
+      bottom: 0em;
+      width: 50%;
+      right: 2em;
+      max-width: 800px;
+    }
 
 
   }
-
-
-
 
 }
 
@@ -254,6 +252,10 @@ a:hover {
      h1 {
       font-size: 2.5em;
       margin-top: 0;
+     }
+
+     p,h2 {
+      width: 100%;
      }
   }
 }
