@@ -214,6 +214,35 @@ a:hover {
   }
 
 
+.gallery {
+  width: 40%;
+  max-width: 600px;
+  position: absolute;
+  right: 8em;;
+  top: 2em;
+
+   ul {
+    width: 100%;
+    list-style: none;
+    height: 80%;
+
+    li {
+      width: 100%;
+      position: absolute;
+      top: 0;
+      display: none;
+
+      &.current {
+        display: block;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+   }
+}
+
 
 
 #fbsection1 {
@@ -245,6 +274,7 @@ a:hover {
 
 #fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
+  //background-color: $mid-tone;
 }
 
 

@@ -1476,57 +1476,87 @@ a:hover {
   padding-bottom: 2em;
 }
 
-/* line 219, ../sass/style.scss */
+/* line 217, ../sass/style.scss */
+.gallery {
+  width: 40%;
+  max-width: 600px;
+  position: absolute;
+  right: 8em;
+  top: 2em;
+}
+/* line 224, ../sass/style.scss */
+.gallery ul {
+  width: 100%;
+  list-style: none;
+  height: 80%;
+}
+/* line 229, ../sass/style.scss */
+.gallery ul li {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  display: none;
+}
+/* line 235, ../sass/style.scss */
+.gallery ul li.current {
+  display: block;
+}
+/* line 239, ../sass/style.scss */
+.gallery ul li img {
+  width: 100%;
+}
+
+/* line 248, ../sass/style.scss */
 #fbsection1 {
   background-color: #323232;
 }
-/* line 222, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 #fbsection1 .slide-content {
   font-size: 16px;
 }
-/* line 225, ../sass/style.scss */
+/* line 254, ../sass/style.scss */
 #fbsection1 .slide-content h1 {
   font-size: 2.5em;
   margin-top: 0;
 }
 
-/* line 232, ../sass/style.scss */
+/* line 261, ../sass/style.scss */
 #fbsection2 {
   background-image: url(../images/armory-ww1.jpg);
 }
-/* line 235, ../sass/style.scss */
+/* line 264, ../sass/style.scss */
 #fbsection2 .slide-content {
   font-size: 16px;
   font-size: 2em;
   color: black;
 }
 
-/* line 242, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 #fbsection3 {
   background-image: url(../images/aerial2.jpg);
 }
 
-/* line 246, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 #fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 251, ../sass/style.scss */
+/* line 281, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 255, ../sass/style.scss */
+/* line 285, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 259, ../sass/style.scss */
+/* line 289, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 263, ../sass/style.scss */
+/* line 293, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
