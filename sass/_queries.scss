@@ -27,8 +27,10 @@
 
 }
 
+
+
 // Desktop + Laptop
-@media screen and (min-width: $responsive-break) {
+@media screen and (min-width: $desktop-break) {
 
 	$laptop-base-size: 24px;
 
@@ -75,4 +77,17 @@
 		background-color: transparent;
 	}
 
+}
+
+@media screen and (min-width: $desktop-break) and (max-width: $widescreen-break) {
+	#fbsection1 {
+		.slide-content {
+			font-size: .8em;
+			width: 60%;
+
+			p,h2 {
+				width: 75%;
+			}
+		}
+	}
 }
