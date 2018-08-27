@@ -52,6 +52,16 @@
 		}
 	}
 
+	#fbsection3 {
+		.slide-content {
+			p {
+				&:first-of-type {
+					margin-top: 0;
+				}
+			}
+		}
+	}
+
 }
 
 // Desktop + Laptop

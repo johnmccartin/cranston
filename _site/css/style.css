@@ -1546,7 +1546,7 @@ a:hover {
 
 /* line 282, ../sass/style.scss */
 #fbsection3 {
-  background-image: url(../images/14th_ri.jpg);
+  background-image: url(../images/camp-stevens.jpg);
 }
 
 /* line 286, ../sass/style.scss */
@@ -1618,24 +1618,29 @@ a:hover {
   #fbsection1 .slide-content {
     font-size: 20px;
   }
+
+  /* line 58, ../sass/_queries.scss */
+  #fbsection3 .slide-content p:first-of-type {
+    margin-top: 0;
+  }
 }
 @media screen and (min-width: 81.25em) {
-  /* line 62, ../sass/_queries.scss */
+  /* line 72, ../sass/_queries.scss */
   body {
     font-size: 24px;
   }
 
-  /* line 67, ../sass/_queries.scss */
+  /* line 77, ../sass/_queries.scss */
   .mobile-only {
     display: none;
   }
 
-  /* line 71, ../sass/_queries.scss */
+  /* line 81, ../sass/_queries.scss */
   .not-mobile {
     display: block;
   }
 
-  /* line 76, ../sass/_queries.scss */
+  /* line 86, ../sass/_queries.scss */
   .container .slide-content {
     width: 75%;
     margin-left: 10%;
@@ -1643,33 +1648,33 @@ a:hover {
     top: 2em;
   }
 
-  /* line 85, ../sass/_queries.scss */
+  /* line 95, ../sass/_queries.scss */
   .cbp-fbscroller section {
     height: 100%;
   }
 
-  /* line 91, ../sass/_queries.scss */
+  /* line 101, ../sass/_queries.scss */
   #fbsection1 .slide-content {
     font-size: .8em;
     width: 60%;
   }
-  /* line 95, ../sass/_queries.scss */
+  /* line 105, ../sass/_queries.scss */
   #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
     width: 75%;
   }
 
-  /* line 101, ../sass/_queries.scss */
+  /* line 111, ../sass/_queries.scss */
   .highlight-mobile-only {
     background-color: transparent;
   }
 }
 @media screen and (min-width: 81.25em) and (max-width: 90em) {
-  /* line 109, ../sass/_queries.scss */
+  /* line 119, ../sass/_queries.scss */
   #fbsection1 .slide-content {
     font-size: .8em;
     width: 60%;
   }
-  /* line 113, ../sass/_queries.scss */
+  /* line 123, ../sass/_queries.scss */
   #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
     width: 75%;
   }
