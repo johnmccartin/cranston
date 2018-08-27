@@ -177,6 +177,10 @@ a:hover {
     color: $primary-light;
     width: 100%;
     margin-left: 0;
+
+    p.content-text-small {
+      font-size: 1em;
+    }
  
 
     img {
@@ -276,10 +280,14 @@ a:hover {
 }
 
 #fbsection3 {
-  background-image: url(../images/aerial2.jpg);
+  background-image: url(../images/14th_ri.jpg);
 }
 
 #fbsection4 {
+  background-image: url(../images/aerial2.jpg);
+}
+
+#fbsection5 {
   background-image: url(../images/gymnasium2.jpg);
   //background-color: $mid-tone;
 }

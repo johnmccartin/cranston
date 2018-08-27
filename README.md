@@ -1,3 +1,3 @@
-Created by Codrops
+Website for the Cranston Street Armory Reuse plan.
 
-Please read more about our license here: http://tympanus.net/codrops/licensing/ 
+Website framework by codrops. Read more about their license here: http://tympanus.net/codrops/licensing/ 

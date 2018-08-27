@@ -35,6 +35,17 @@
 		font-size: $tablet-base-size;
 	}
 
+	.container {
+		.slide-content {
+			p.content-text-small {
+		      font-size: .55em;
+		    }
+		}
+
+	}
+	
+	
+
 	#fbsection1 {
 		.slide-content {
 			font-size: $tablet-base-size;
