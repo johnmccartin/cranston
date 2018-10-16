@@ -168,10 +168,12 @@ a:hover {
     }
   }
 
+  
+
   .slide-content {
 
     padding: .5em;
-    max-width: 1000px;
+    max-width: 9000px;
     font-size: 2em;
     line-height: 1.5;
     color: $primary-light;
@@ -269,26 +271,33 @@ a:hover {
   }
 }
 
+
+
+
 #fbsection2 {
-  background-image: url(../images/armory-ww1.jpg);
+  background-image: url(../images/aerial2.jpg);
 
   .slide-content {
     font-size: $base-size;
-    font-size: 2em;
-    color: black;
+    font-size: 1.5em;
+    //color: black;
+
+    p {
+      max-width: 800px;
+    }
   }
 }
 
 #fbsection3 {
-  background-image: url(../images/camp-stevens.jpg);
+  background-image: url(../images/gymnasium2.jpg);
 }
 
 #fbsection4 {
-  background-image: url(../images/aerial2.jpg);
+  background-image: url(../images/engagement.jpg);
 }
 
 #fbsection5 {
-  background-image: url(../images/gymnasium2.jpg);
+  background-image: url(../images/camp-stevens.jpg);
   //background-color: $mid-tone;
 }
 

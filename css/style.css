@@ -1446,25 +1446,25 @@ a:hover {
 .container > header nav a:hover {
   background: #47a3da;
 }
-/* line 171, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .container .slide-content {
   padding: .5em;
-  max-width: 1000px;
+  max-width: 9000px;
   font-size: 2em;
   line-height: 1.5;
   color: #fff;
   width: 100%;
   margin-left: 0;
 }
-/* line 181, ../sass/style.scss */
+/* line 183, ../sass/style.scss */
 .container .slide-content p.content-text-small {
   font-size: 1em;
 }
-/* line 187, ../sass/style.scss */
+/* line 189, ../sass/style.scss */
 .container .slide-content img.elevation-logo {
   width: 100%;
 }
-/* line 197, ../sass/style.scss */
+/* line 199, ../sass/style.scss */
 .container img.elevation {
   position: absolute;
   bottom: 0em;
@@ -1473,14 +1473,14 @@ a:hover {
   max-width: 800px;
 }
 
-/* line 212, ../sass/style.scss */
+/* line 214, ../sass/style.scss */
 .cbp-fbscroller section {
   height: auto;
   min-height: 450px;
   padding-bottom: 2em;
 }
 
-/* line 220, ../sass/style.scss */
+/* line 222, ../sass/style.scss */
 .gallery {
   width: 40%;
   max-width: 600px;
@@ -1488,93 +1488,96 @@ a:hover {
   right: 8em;
   top: 2em;
 }
-/* line 227, ../sass/style.scss */
+/* line 229, ../sass/style.scss */
 .gallery ul {
   width: 100%;
   list-style: none;
   height: 80%;
 }
-/* line 232, ../sass/style.scss */
+/* line 234, ../sass/style.scss */
 .gallery ul li {
   width: 100%;
   position: absolute;
   top: 0;
   display: none;
 }
-/* line 238, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .gallery ul li.current {
   display: block;
 }
-/* line 242, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .gallery ul li img {
   width: 100%;
 }
 
-/* line 251, ../sass/style.scss */
+/* line 253, ../sass/style.scss */
 #fbsection1 {
   background-color: #323232;
 }
-/* line 254, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 #fbsection1 .slide-content {
   font-size: 12px;
   padding: 1.5em;
 }
-/* line 258, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 #fbsection1 .slide-content h1 {
   font-size: 2.5em;
   margin-top: 0;
 }
-/* line 263, ../sass/style.scss */
+/* line 265, ../sass/style.scss */
 #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
   width: 100%;
 }
-/* line 266, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 #fbsection1 .slide-content p {
   font-weight: 400;
 }
 
-/* line 272, ../sass/style.scss */
+/* line 277, ../sass/style.scss */
 #fbsection2 {
-  background-image: url(../images/armory-ww1.jpg);
-}
-/* line 275, ../sass/style.scss */
-#fbsection2 .slide-content {
-  font-size: 12px;
-  font-size: 2em;
-  color: black;
-}
-
-/* line 282, ../sass/style.scss */
-#fbsection3 {
-  background-image: url(../images/camp-stevens.jpg);
-}
-
-/* line 286, ../sass/style.scss */
-#fbsection4 {
   background-image: url(../images/aerial2.jpg);
 }
+/* line 280, ../sass/style.scss */
+#fbsection2 .slide-content {
+  font-size: 12px;
+  font-size: 1.5em;
+}
+/* line 285, ../sass/style.scss */
+#fbsection2 .slide-content p {
+  max-width: 800px;
+}
 
-/* line 290, ../sass/style.scss */
-#fbsection5 {
+/* line 291, ../sass/style.scss */
+#fbsection3 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 296, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
+#fbsection4 {
+  background-image: url(../images/engagement.jpg);
+}
+
+/* line 299, ../sass/style.scss */
+#fbsection5 {
+  background-image: url(../images/camp-stevens.jpg);
+}
+
+/* line 305, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 304, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 308, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
