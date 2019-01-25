@@ -1597,6 +1597,14 @@ a:hover {
   background-color: #d7a04f;
 }
 
+/* line 337, ../sass/style.scss */
+.goog-te-gadget {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000000;
+}
+
 /* line 1, ../sass/_queries.scss */
 .mobile-only {
   display: auto;

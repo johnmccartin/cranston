@@ -334,6 +334,12 @@ a:hover {
 }
 
 
+.goog-te-gadget {
+  position:  fixed;
+  top: 0;
+  right: 0;
+  z-index: 1000000;
 
+}
 
 @import 'queries';
