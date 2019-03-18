@@ -1373,7 +1373,7 @@ body {
   font-family: 'Merriweather',times,serif;
   color: #222;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 400;
 }
 
 /* line 100, ../sass/style.scss */
@@ -1473,7 +1473,15 @@ a:hover {
 .container .slide-content img.elevation-logo {
   width: 100%;
 }
+/* line 203, ../sass/style.scss */
+.container .slide-content.bold-text {
+  font-weight: 800;
+}
 /* line 208, ../sass/style.scss */
+.container .slide-content .larger-text {
+  font-size: 1.2em;
+}
+/* line 217, ../sass/style.scss */
 .container img.elevation {
   position: absolute;
   bottom: 0em;
@@ -1482,14 +1490,14 @@ a:hover {
   max-width: 800px;
 }
 
-/* line 223, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 .cbp-fbscroller section {
   height: auto;
   min-height: 450px;
   padding-bottom: 2em;
 }
 
-/* line 231, ../sass/style.scss */
+/* line 240, ../sass/style.scss */
 .gallery {
   width: 40%;
   max-width: 600px;
@@ -1497,111 +1505,111 @@ a:hover {
   right: 8em;
   top: 2em;
 }
-/* line 238, ../sass/style.scss */
+/* line 247, ../sass/style.scss */
 .gallery ul {
   width: 100%;
   list-style: none;
   height: 80%;
 }
-/* line 243, ../sass/style.scss */
+/* line 252, ../sass/style.scss */
 .gallery ul li {
   width: 100%;
   position: absolute;
   top: 0;
   display: none;
 }
-/* line 249, ../sass/style.scss */
+/* line 258, ../sass/style.scss */
 .gallery ul li.current {
   display: block;
 }
-/* line 253, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .gallery ul li img {
   width: 100%;
 }
 
-/* line 262, ../sass/style.scss */
+/* line 271, ../sass/style.scss */
 #fbsection1 {
   background-color: #323232;
 }
-/* line 265, ../sass/style.scss */
+/* line 274, ../sass/style.scss */
 #fbsection1 .slide-content {
   font-size: 12px;
   padding: 1.5em;
 }
-/* line 269, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 #fbsection1 .slide-content h1 {
   font-size: 2.5em;
   margin-top: 0;
 }
-/* line 274, ../sass/style.scss */
+/* line 283, ../sass/style.scss */
 #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
   width: 100%;
 }
-/* line 277, ../sass/style.scss */
+/* line 286, ../sass/style.scss */
 #fbsection1 .slide-content p {
   font-weight: 400;
 }
 
-/* line 286, ../sass/style.scss */
+/* line 295, ../sass/style.scss */
 #fbsection2 {
   background-image: url(../images/aerial2.jpg);
 }
-/* line 289, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 #fbsection2 .slide-content {
   font-size: 12px;
   font-size: 1.5em;
 }
-/* line 294, ../sass/style.scss */
+/* line 303, ../sass/style.scss */
 #fbsection2 .slide-content p {
   max-width: 800px;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 309, ../sass/style.scss */
 #fbsection3 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 304, ../sass/style.scss */
+/* line 313, ../sass/style.scss */
 #fbsection4 {
   background-image: url(../images/engagement.jpg);
 }
 
-/* line 308, ../sass/style.scss */
+/* line 317, ../sass/style.scss */
 #fbsection5 {
   background-color: #323232;
 }
 
-/* line 313, ../sass/style.scss */
+/* line 322, ../sass/style.scss */
 #fbsection6 {
   background-color: #80c6bc;
 }
 
-/* line 319, ../sass/style.scss */
+/* line 328, ../sass/style.scss */
 #fbsection7 {
   background-image: url(../images/camp-stevens.jpg);
 }
 
-/* line 325, ../sass/style.scss */
+/* line 334, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 329, ../sass/style.scss */
+/* line 338, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 333, ../sass/style.scss */
+/* line 342, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 337, ../sass/style.scss */
+/* line 346, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
 
-/* line 342, ../sass/style.scss */
+/* line 351, ../sass/style.scss */
 .goog-te-gadget {
   position: fixed;
   top: 0;
