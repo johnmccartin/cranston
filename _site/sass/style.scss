@@ -289,10 +289,15 @@ a:hover {
   }
 }
 
-
-
-
 #fbsection2 {
+  background-image: url(../images/engagement.jpg);
+  p {
+    font-size: .85em;
+  }
+}
+
+
+#fbsection3 {
   background-image: url(../images/stickies.jpg);
 
   .slide-content {
@@ -306,13 +311,11 @@ a:hover {
   }
 }
 
-#fbsection3 {
+#fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-#fbsection4 {
-  background-image: url(../images/engagement.jpg);
-}
+
 
 #fbsection5  {
   background-color: $mid-tone;

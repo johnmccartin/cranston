@@ -1550,66 +1550,70 @@ a:hover {
   font-weight: 400;
 }
 
-/* line 295, ../sass/style.scss */
+/* line 292, ../sass/style.scss */
 #fbsection2 {
+  background-image: url(../images/engagement.jpg);
+}
+/* line 294, ../sass/style.scss */
+#fbsection2 p {
+  font-size: .85em;
+}
+
+/* line 300, ../sass/style.scss */
+#fbsection3 {
   background-image: url(../images/stickies.jpg);
 }
-/* line 298, ../sass/style.scss */
-#fbsection2 .slide-content {
+/* line 303, ../sass/style.scss */
+#fbsection3 .slide-content {
   font-size: 12px;
   font-size: 1.5em;
 }
-/* line 303, ../sass/style.scss */
-#fbsection2 .slide-content p {
+/* line 308, ../sass/style.scss */
+#fbsection3 .slide-content p {
   max-width: 800px;
 }
 
-/* line 309, ../sass/style.scss */
-#fbsection3 {
+/* line 314, ../sass/style.scss */
+#fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 313, ../sass/style.scss */
-#fbsection4 {
-  background-image: url(../images/engagement.jpg);
-}
-
-/* line 317, ../sass/style.scss */
+/* line 320, ../sass/style.scss */
 #fbsection5 {
   background-color: #323232;
 }
 
-/* line 322, ../sass/style.scss */
+/* line 325, ../sass/style.scss */
 #fbsection6 {
   background-color: #80c6bc;
 }
 
-/* line 328, ../sass/style.scss */
+/* line 331, ../sass/style.scss */
 #fbsection7 {
   background-image: url(../images/camp-stevens.jpg);
 }
 
-/* line 334, ../sass/style.scss */
+/* line 337, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 338, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 342, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 346, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
 
-/* line 351, ../sass/style.scss */
+/* line 354, ../sass/style.scss */
 .goog-te-gadget {
   position: fixed;
   top: 0;
