@@ -1481,7 +1481,11 @@ a:hover {
 .container .slide-content .larger-text {
   font-size: 1.2em;
 }
-/* line 217, ../sass/style.scss */
+/* line 212, ../sass/style.scss */
+.container .slide-content .smaller-text {
+  font-size: .85em;
+}
+/* line 221, ../sass/style.scss */
 .container img.elevation {
   position: absolute;
   bottom: 0em;
@@ -1490,14 +1494,14 @@ a:hover {
   max-width: 800px;
 }
 
-/* line 232, ../sass/style.scss */
+/* line 236, ../sass/style.scss */
 .cbp-fbscroller section {
   height: auto;
   min-height: 450px;
   padding-bottom: 2em;
 }
 
-/* line 240, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 .gallery {
   width: 40%;
   max-width: 600px;
@@ -1505,115 +1509,115 @@ a:hover {
   right: 8em;
   top: 2em;
 }
-/* line 247, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 .gallery ul {
   width: 100%;
   list-style: none;
   height: 80%;
 }
-/* line 252, ../sass/style.scss */
+/* line 256, ../sass/style.scss */
 .gallery ul li {
   width: 100%;
   position: absolute;
   top: 0;
   display: none;
 }
-/* line 258, ../sass/style.scss */
+/* line 262, ../sass/style.scss */
 .gallery ul li.current {
   display: block;
 }
-/* line 262, ../sass/style.scss */
+/* line 266, ../sass/style.scss */
 .gallery ul li img {
   width: 100%;
 }
 
-/* line 271, ../sass/style.scss */
+/* line 275, ../sass/style.scss */
 #fbsection1 {
   background-color: #323232;
 }
-/* line 274, ../sass/style.scss */
+/* line 278, ../sass/style.scss */
 #fbsection1 .slide-content {
   font-size: 12px;
   padding: 1.5em;
 }
-/* line 278, ../sass/style.scss */
+/* line 282, ../sass/style.scss */
 #fbsection1 .slide-content h1 {
   font-size: 2.5em;
   margin-top: 0;
 }
-/* line 283, ../sass/style.scss */
+/* line 287, ../sass/style.scss */
 #fbsection1 .slide-content p, #fbsection1 .slide-content h2 {
   width: 100%;
 }
-/* line 286, ../sass/style.scss */
+/* line 290, ../sass/style.scss */
 #fbsection1 .slide-content p {
   font-weight: 400;
 }
 
-/* line 292, ../sass/style.scss */
+/* line 296, ../sass/style.scss */
 #fbsection2 {
   background-image: url(../images/engagement.jpg);
 }
-/* line 294, ../sass/style.scss */
+/* line 298, ../sass/style.scss */
 #fbsection2 p {
   font-size: .85em;
 }
 
-/* line 300, ../sass/style.scss */
+/* line 304, ../sass/style.scss */
 #fbsection3 {
   background-image: url(../images/stickies.jpg);
 }
-/* line 303, ../sass/style.scss */
+/* line 307, ../sass/style.scss */
 #fbsection3 .slide-content {
   font-size: 12px;
   font-size: 1.5em;
 }
-/* line 308, ../sass/style.scss */
+/* line 312, ../sass/style.scss */
 #fbsection3 .slide-content p {
   max-width: 800px;
 }
 
-/* line 314, ../sass/style.scss */
+/* line 318, ../sass/style.scss */
 #fbsection4 {
   background-image: url(../images/gymnasium2.jpg);
 }
 
-/* line 320, ../sass/style.scss */
+/* line 324, ../sass/style.scss */
 #fbsection5 {
   background-color: #323232;
 }
 
-/* line 325, ../sass/style.scss */
+/* line 329, ../sass/style.scss */
 #fbsection6 {
   background-color: #80c6bc;
 }
 
-/* line 331, ../sass/style.scss */
+/* line 335, ../sass/style.scss */
 #fbsection7 {
   background-image: url(../images/camp-stevens.jpg);
 }
 
-/* line 337, ../sass/style.scss */
+/* line 341, ../sass/style.scss */
 .highlight {
   background-color: #80c6bc;
 }
 
-/* line 341, ../sass/style.scss */
+/* line 345, ../sass/style.scss */
 .highlight-gray {
   background-color: #323232;
 }
 
-/* line 345, ../sass/style.scss */
+/* line 349, ../sass/style.scss */
 .highlight-iron {
   background-color: #80c6bc;
 }
 
-/* line 349, ../sass/style.scss */
+/* line 353, ../sass/style.scss */
 .highlight-sandstone {
   background-color: #d7a04f;
 }
 
-/* line 354, ../sass/style.scss */
+/* line 358, ../sass/style.scss */
 .goog-te-gadget {
   position: fixed;
   top: 0;
