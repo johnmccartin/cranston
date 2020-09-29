@@ -989,16 +989,6 @@ a:hover {
 
 #fbsection2 {
   background-color: #323232; }
-  #fbsection2 .slide-content {
-    font-size: 12px;
-    padding: 1.5em; }
-    #fbsection2 .slide-content h1 {
-      font-size: 2.5em;
-      margin-top: 0; }
-    #fbsection2 .slide-content p, #fbsection2 .slide-content h2 {
-      width: 100%; }
-    #fbsection2 .slide-content p {
-      font-weight: 400; }
 
 #fbsection3 {
   background-image: url(../images/engagement.jpg); }
